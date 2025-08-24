@@ -16,7 +16,9 @@ Cocok digunakan untuk latihan front-end dasar atau personal branding.
 ---
 
 ## 📂 Struktur Project
+
 .
+
 ├── index.html # Halaman utama (CV)
 
 ├── style.css # Styling dengan clean code & responsive
