@@ -15,24 +15,6 @@ Cocok digunakan untuk latihan front-end dasar atau personal branding.
 
 ---
 
-## 📂 Struktur Project
-.
-├── index.html # Halaman utama (CV)
-├── style.css # Styling dengan clean code & responsive
-├── Profile.png # Foto profil (opsional, bisa diganti)
-└── README.md # Dokumentasi project
-
-
----
-
-## 🖼️ Preview
-Tampilan utama website:
-
-![Preview CV](./preview.png)  
-*(ganti dengan screenshot hasil projectmu, atau hapus bagian ini bila tidak perlu)*
-
----
-
 ## 🚀 Cara Menjalankan
 1. Clone repo ini:
    ```bash
@@ -55,6 +37,5 @@ Feel free untuk fork & modifikasi sesuai kebutuhanmu.
 Ibnu Hilmi Athaillah
 📧 Email: ibnupisces08@gmail.com
 📱 WhatsApp: +62 821 2323 5300
-
 
 ---
