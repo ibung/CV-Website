@@ -15,6 +15,18 @@ Cocok digunakan untuk latihan front-end dasar atau personal branding.
 
 ---
 
+## 📂 Struktur Project
+.
+├── index.html # Halaman utama (CV)
+
+├── style.css # Styling dengan clean code & responsive
+
+├── Profile.png # Foto profil (opsional, bisa diganti)
+
+└── README.md # Dokumentasi project
+
+---
+
 ## 🚀 Cara Menjalankan
 1. Clone repo ini:
    ```bash
