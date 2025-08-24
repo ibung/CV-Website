@@ -1,111 +1,161 @@
-/* Reset dasar */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* RESET DASAR */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
 }
 
-/* Body */
+html {
+font-size: 62.5%;
+scroll-behavior: smooth; /* biar smooth scroll */
+}
+
 body {
-  background-color: #f4f6f9;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
+width: 100%;
+min-height: 100vh;
+background-color: #ffffff;
+color: #333;
+line-height: 1.6;
+overflow-x: hidden;
 }
 
-/* Container utama */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  background: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* Header */
+/* HEADER / NAVBAR */
 .header {
-  text-align: center;
-  margin-bottom: 20px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 1rem 9%;
+background-color: #0A2342; /* biru tua */
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
 }
-.header h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: #222;
+
+.logo {
+font-size: 2.4rem;
+color: #ffffff;
+font-weight: 700;
+cursor: pointer;
+transition: 0.3s ease;
+text-decoration: none;  
+border: none;
+}
+
+.logo:hover {
+transform: scale(1.05);
+}
+
+nav a {
+font-size: 1.6rem;
+color: #ffffff;
+margin-left: 3rem;
+font-weight: 500;
+text-decoration: none;
+transition: 0.3s ease;
+border-bottom: 2px solid transparent;
+padding-bottom: 3px;
+}
+
+nav a:hover {
+color: #ffcc00;
+border-bottom: 2px solid #ffcc00;
+}
+
+nav a.active {
+color: #ffcc00;
+border-bottom: 2px solid #ffcc00;
+font-weight: 600;
+}
+
+/* UMUM UNTUK SECTION */
+.section {
+width: 100%;
+min-height: 100vh; /* full layar */
+padding: 8rem 9% 4rem; /* kasih jarak dari atas biar ga ketutup header */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+color: #fff;
+}
+
+.section h2 {
+font-size: 2.4rem;
+margin-bottom: 2rem;
+border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+padding-bottom: 0.5rem;
+}
+
+.section p,
+.section li {
+font-size: 1.6rem;
+margin-bottom: 1rem;
+}
+
+/* WARNA SELANG-SELING */
+.box-a {
+background-color: #003366; /* biru tua */
+}
+
+.box-b {
+background-color: #3399ff; /* biru muda */
+}
+
+/* PROFIL */
+.profile-img {
+width: 150px;
+height: 200px;
+border-radius: 10px;
+object-fit: cover;
+margin-bottom: 1.5rem;
+}
+
+/* FOOTER */
+.footer {
+width: 100%;
+text-align: center;
+background: #003366;
+color: #fff;
+padding: 1.5rem;
+font-size: 1.4rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+html {
+font-size: 55%;
+}
+nav a {
+margin-left: 1.5rem;
+font-size: 1.4rem;
+}
+.section {
+padding: 6rem 5% 3rem;
+}
+}
+
+@media (max-width: 480px) {
+html {
+font-size: 50%;
+}
+.header {
+flex-direction: column;
+padding: 1rem 5%;
+}
+nav {
+margin-top: 1rem;
+}
+nav a {
+display: inline-block;
+margin: 0.5rem 1rem;
 }
 .profile-img {
-  width: 150px;
-  height: 200px;
-  border-radius: 8px;
-  object-fit: cover;
-  margin: 10px 0;
+width: 120px;
+height: 160px;
 }
-
-/* Section */
-.section {
-  margin-bottom: 25px;
-}
-.section h2 {
-  font-size: 20px;
-  color: #444;
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-.section ul {
-  margin-left: 20px;
-}
-.section li {
-  margin-bottom: 8px;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  font-size: 14px;
-  color: #777;
-  margin-top: 30px;
-}
-
-/* ================= Responsiveness ================= */
-
-/* Untuk layar tablet (<= 768px) */
-@media (max-width: 768px) {
-  .container {
-    padding: 20px;
-  }
-  .header h1 {
-    font-size: 24px;
-  }
-  .profile-img {
-    width: 120px;
-    height: 160px;
-  }
-  .section h2 {
-    font-size: 18px;
-  }
-}
-
-/* Untuk layar HP (<= 480px) */
-@media (max-width: 480px) {
-  body {
-    padding: 10px;
-  }
-  .container {
-    padding: 15px;
-  }
-  .header h1 {
-    font-size: 20px;
-  }
-  .profile-img {
-    width: 100px;
-    height: 140px;
-  }
-  .section h2 {
-    font-size: 16px;
-  }
-  .footer {
-    font-size: 12px;
-  }
 }
