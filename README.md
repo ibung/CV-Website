@@ -22,20 +22,34 @@ Cocok digunakan untuk latihan front-end dasar atau personal branding.
 2. Buka file index.html di browser (Chrome, Firefox, dsb).
 
 🎨 Warna Utama
+
 Project ini menggunakan palet warna biru:
+
 --blue-dark: #0A2342
+
 --blue-primary: #003366
+
 --blue-light: #3399ff
+
 --yellow-accent: #ffcc00
 
+
 📌 Catatan
+
 Proyek ini tidak menggunakan JavaScript, semua navigasi bekerja dengan anchor link.
+
 Cocok untuk portfolio pribadi, tugas kuliah, atau latihan front-end dasar.
+
 Feel free untuk fork & modifikasi sesuai kebutuhanmu.
 
+
 👨‍💻 Author
+
 Ibnu Hilmi Athaillah
+
 📧 Email: ibnupisces08@gmail.com
+
 📱 WhatsApp: +62 821 2323 5300
+
 
 ---
