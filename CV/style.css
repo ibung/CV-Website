@@ -115,11 +115,62 @@ object-fit: cover;
 margin-bottom: 1.5rem;
 }
 
+/* Layout Profile */
+.profile-container {
+display: flex;
+align-items: flex-start;
+gap: 2rem;
+flex-wrap: wrap; /* biar responsif */
+}
+
+/* Kolom kiri (foto + info) */
+.profile-left {
+flex: 1;
+min-width: 200px;
+text-align: center;
+}
+
+.profile-img {
+width: 180px;
+height: 220px;
+border-radius: 10px;
+object-fit: cover;
+border: 2px solid #0A2342;
+margin-bottom: 3rem;
+transition: 0.3s ease;
+}
+
+.profile-img:hover {
+transform: scale(1.05);
+}
+
+.profile-info p {
+font-size: 1.4rem;
+margin: 0.3rem 0;
+}
+
+/* Kolom kanan (tentang saya) */
+.profile-right {
+flex: 2;
+min-width: 250px;
+}
+
+.profile-right h2 {
+font-size: 2.2rem;
+margin-bottom: 1rem;
+}
+
+.profile-right p {
+font-size: 1.6rem;
+text-align: justify;
+line-height: 1.6;
+}
+
 /* FOOTER */
 .footer {
 width: 100%;
 text-align: center;
-background: #003366;
+background: #3399ff;
 color: #fff;
 padding: 1.5rem;
 font-size: 1.4rem;

@@ -11,11 +11,11 @@
 <body>
     <!-- Header -->
     <div class="header">
-        <a class="logo">HELLO WORLD !!!</a>
+        <a class="logo">HELLO WORLD</a>
 
         <nav>
             <a href="#profile" >Profile</a>
-            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
             <a href="#education" >Education</a>
             <a href="#experience" >Experience</a>
             <a href="#contact" >Contact</a>
@@ -24,21 +24,42 @@
 
     <!-- Profile -->
     <div class="section box box-a" id="profile">
-        <h2>Profile</h2>
-        <img src="ibnu.png" alt="Foto profil" class="profile-img">
-        <p><b>Ibnu Hilmi Athaillah</b><br>Kelas : 2C-D3 Teknik Informatika<br>Alamat : Majalengka, Indonesia</p>
-    </div>
-
+        <div class="profile-container">
+        <!-- Foto + Data Diri -->
+        <div class="profile-left">
+            <img src="Profile.png" alt="Foto profil" class="profile-img">
+            <div class="profile-info">
+            <p><b>Ibnu Hilmi Athaillah</b></p>
+            <p>Kelas : 2C-D3 Teknik Informatika</p>
+            <p>Alamat : Majalengka, Indonesia</p>
+            </div>
+        </div>
+    
         <!-- Tentang Saya -->
-    <div class="section box box-b" id="about">
-        <h2>Tentang Saya</h2>
-        <p>Mahasiswa aktif D3 Teknik Informatika di Politeknik Negeri Bandung sekaligus lulusan SMK TKJ
-            yang memiliki minat besar dalam dunia teknologi, pengembangan aplikasi, dan jaringan komputer.</p>
-        <p>Selama studi, saya aktif mengikuti berbagai kegiatan—dari magang industri, organisasi kampus, proyek aplikasi Islami,
-            hingga menulis novel. Saya percaya bahwa setiap proses belajar, baik teknis maupun sosial, membentuk saya menjadi pribadi adaptif,
-            kreatif, dan solutif. Dengan prinsip hidup <abbr title="Cintai Nasibmu"><i>Amor Fati</i></abbr>, saya mencintai setiap tantangan sebagai bagian dari perjalanan bertumbuh.</p>
+        <div class="profile-right">
+            <h2>Tentang Saya</h2>
+            <p>
+            Mahasiswa aktif D3 Teknik Informatika di Politeknik Negeri Bandung sekaligus lulusan SMK TKJ 
+            yang memiliki minat besar dalam dunia teknologi, pengembangan aplikasi, dan jaringan komputer.</p>              
+            <p>Saya percaya bahwa setiap proses belajar, baik teknis maupun sosial, membentuk saya menjadi pribadi adaptif, kreatif, dan solutif. 
+            Dengan prinsip hidup <u><abbr title="Cintai Nasibmu"><i>Amor Fati</i></abbr></u>, saya mencintai setiap tantangan sebagai bagian dari perjalanan bertumbuh.
+            </p>
+        </div>
+        </div>
     </div>
 
+        <!-- Hard Skills -->
+    <div class="section box box-b" id="skills">
+        <h2>Hard Skills</h2>
+        <ul>
+            <li>Bahasa Pemrograman: C, C++, HTML, CSS</li>
+            <li>Pengembangan Game: Raylib, SDL2</li>
+            <li>Database: MySQL (dasar)</li>
+            <li>Desain UI/UX (Figma)</li>
+            <li>Problem Solving & Analisis</li>
+        </ul>
+    </div>
+    
     <!-- Pendidikan -->
     <div class="section box box-a" id="education">
         <h2>Riwayat Pendidikan</h2>
